@@ -18,12 +18,11 @@ public class TestNG1 {
 		
 // 	}
 	
-// 	@BeforeTest
-// 	public void beforeTest() {
+ 	@BeforeTest
+ 	public void beforeTest() {
+		 		System.out.println("Before test from TestNG1");
 		
-// 		System.out.println("Before test from TestNG1");
-		
-// 	}
+ 	}
 	
 	
  	@BeforeClass
