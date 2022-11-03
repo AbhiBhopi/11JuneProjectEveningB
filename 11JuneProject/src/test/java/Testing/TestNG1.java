@@ -11,27 +11,27 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class TestNG1 {
-	@BeforeSuite
-	public void beforeSuite() {
+// 	@BeforeSuite
+// 	public void beforeSuite() {
 		
-		System.out.println("Before suit from TestNG1");
+// 		System.out.println("Before suit from TestNG1");
 		
-	}
+// 	}
 	
-	@BeforeTest
-	public void beforeTest() {
+// 	@BeforeTest
+// 	public void beforeTest() {
 		
-		System.out.println("Before test from TestNG1");
+// 		System.out.println("Before test from TestNG1");
 		
-	}
+// 	}
 	
 	
-	@BeforeClass
-	public void beforeClass() {
+// 	@BeforeClass
+// 	public void beforeClass() {
 		
-		System.out.println("Before class");
+// 		System.out.println("Before class");
 		
-	}
+// 	}
 	
 	@BeforeMethod
 	public void beforeMethod() {
