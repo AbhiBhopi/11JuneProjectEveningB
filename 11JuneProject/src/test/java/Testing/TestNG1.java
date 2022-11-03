@@ -26,12 +26,12 @@ public class TestNG1 {
 // 	}
 	
 	
-// 	@BeforeClass
-// 	public void beforeClass() {
+ 	@BeforeClass
+ 	public void beforeClass() {
 		
-// 		System.out.println("Before class");
+ 		System.out.println("Before class");
 		
-// 	}
+	}
 	
 	@BeforeMethod
 	public void beforeMethod() {
